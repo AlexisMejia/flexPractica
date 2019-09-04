@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cabeza{
+    background-color: black;
+    height: 10%;
+    flex-direction: row;
+}
+
+.principal{
+    display: flex;
+    height: 80%;
+    background-color: red;
+    flex-direction: row;
+}
+
+.pie{
+display:flex;
+height: 10%;
+background-color: aqua;
+}
