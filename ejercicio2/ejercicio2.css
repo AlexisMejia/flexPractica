@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+body { 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.header{
+    height: 10%;
+    display: flex;
+    background-color: lightgray;
+}
+
+.footer{
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+    height: 80%;
+    flex-direction: row;
+}
+
+.section2 {
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.section3 {
+    background-color: coral;
+    width: 50%;
+}
+
